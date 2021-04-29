@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".fragments.payBillFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ScrollView
+            android:id="@+id/scrollView"
+            android:background="@drawable/background"
+            android:layout_width="match_parent"
+            android:layout_height="700dp">
+
+            <LinearLayout
+                android:id="@+id/linearlayout"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <RelativeLayout
+                    android:layout_marginTop="32dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:id="@+id/textdashboard"
+                        android:text="Pay Bill"
+                        android:textSize="50sp"
+                        android:textColor="#FFFFFF"
+                        android:textStyle="bold"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+                    <TextView
+                        android:layout_below="@+id/textdashboard"
+                        android:layout_marginTop="6dp"
+                        android:text=""
+                        android:textSize="14sp"
+                        android:textColor="#52BAFF"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+
+                </RelativeLayout>
+                <TextView
+                    android:layout_below="@+id/textdashboard"
+                    android:layout_marginTop="6dp"
+                    android:text="Bill Id"
+                    android:textSize="35sp"
+                    android:textColor="#52BAFF"
+                    android:layout_marginLeft="30dp"
+                    android:textStyle="bold"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/textdashboard"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginTop="6dp"
+                    android:text="4"
+                    android:textColor="#FFFFFF"
+                    android:textSize="30sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_below="@+id/textdashboard"
+                    android:layout_marginTop="6dp"
+                    android:text="Highway"
+                    android:textSize="35sp"
+                    android:textColor="#52BAFF"
+                    android:layout_marginLeft="30dp"
+                    android:textStyle="bold"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/textdashboard"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginTop="6dp"
+                    android:text="NH30"
+                    android:textColor="#FFFFFF"
+                    android:textSize="30sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_below="@+id/textdashboard"
+                    android:layout_marginTop="6dp"
+                    android:text="Total KM"
+                    android:textSize="35sp"
+                    android:textColor="#52BAFF"
+                    android:layout_marginLeft="30dp"
+                    android:textStyle="bold"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/textdashboard"
+                    android:layout_marginTop="6dp"
+                    android:text="230"
+                    android:textColor="#FFFFFF"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="40dp"
+                    android:textSize="30sp" />
+                <TextView
+                    android:layout_below="@+id/textdashboard"
+                    android:layout_marginTop="6dp"
+                    android:text="Total Toll"
+                    android:textSize="35sp"
+                    android:textColor="#52BAFF"
+                    android:layout_marginLeft="30dp"
+                    android:textStyle="bold"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/textdashboard"
+                    android:layout_marginTop="6dp"
+                    android:text="Rs.230"
+                    android:textColor="#FFFFFF"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="40dp"
+                    android:textSize="30sp" />
+                <TextView
+                    android:layout_below="@+id/textdashboard"
+                    android:layout_marginTop="6dp"
+                    android:text="Billing Date"
+                    android:textSize="35sp"
+                    android:textColor="#52BAFF"
+                    android:layout_marginLeft="30dp"
+                    android:textStyle="bold"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/textdashboard"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginTop="6dp"
+                    android:text="22/09/2020"
+                    android:textColor="#FFFFFF"
+                    android:textSize="30sp"
+                    android:textStyle="bold" />
+
+
+            </LinearLayout>
+
+
+
+
+        </ScrollView>
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:background="@drawable/background"
+            android:layout_below="@+id/scrollView"
+            android:layout_height="150dp">
+
+
+            <Button
+                android:id="@+id/payBillButton"
+                android:layout_width="241dp"
+                android:layout_height="47dp"
+                android:layout_marginStart="78dp"
+                android:layout_marginLeft="78dp"
+                android:layout_marginTop="34dp"
+                android:text="Proceed to Pay"
+                android:background="@drawable/btn_rounded_green_300"
+                android:textAllCaps="false"
+                android:textColor="#263238"
+                android:textSize="25sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </RelativeLayout>
+
+
+
+</FrameLayout>

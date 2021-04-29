@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">ATPVTS</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="login">Login</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="new_user_register">New User? Register</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="welcome">welcome</string>
+    <string name="logout">Logout</string>
+    <string name="pref_file">com.example.preference_file</string>
+    <string name="pref_login_status">com.example.preference_login_status</string>
+    <string name="pref_user_name">com.example.preference_user_name</string>
+    <string name="pref_name">com.example.preference_name</string>
+    <string name="pref_lock">com.example.preference_lock</string>
+    <string name="register">Register</string>
+    <string name="name">name</string>
+
+
+    <!--    map activity string-->
+    <string name="title_activity_maps">Current Place</string>
+    <string name="default_info_title">Default Location</string>
+    <string name="default_info_snippet">No places found, because location permission is disabled.</string>
+    <string name="option_get_place">Get place</string>
+    <string name="pick_place">Choose a place</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="btlock">Lock As Vehicle</string>
+    <string name="home_fragment">pending</string>
+</resources>

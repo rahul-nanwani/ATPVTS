@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.OpenVehiclesFragment">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:background="@drawable/background"
+        android:layout_width="match_parent"
+        android:layout_height="650dp">
+
+        <LinearLayout
+                android:id="@+id/linearlayout"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <RelativeLayout
+                    android:layout_marginTop="32dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:id="@+id/textdashboard"
+                        android:text="My Vehicles"
+                        android:textSize="50sp"
+                        android:textColor="#FFFFFF"
+                        android:textStyle="bold"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/textdashboard"
+                        android:layout_marginTop="6dp"
+                        android:text=""
+                        android:textColor="#52BAFF"
+                        android:textSize="14sp" />
+
+
+                </RelativeLayout>
+
+        </LinearLayout>
+
+
+
+
+        </ScrollView>
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:background="@drawable/background"
+        android:layout_below="@+id/scrollView"
+        android:layout_height="150dp">
+
+
+        <Button
+            android:id="@+id/my_vehicle_register"
+            android:layout_width="241dp"
+            android:layout_height="47dp"
+            android:layout_marginStart="78dp"
+            android:layout_marginLeft="78dp"
+            android:layout_marginTop="34dp"
+            android:text="Register Vehicle"
+            android:background="@drawable/btn_rounded_green_300"
+            android:textAllCaps="false"
+            android:textColor="#263238"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    </RelativeLayout>
+
+
+</FrameLayout>

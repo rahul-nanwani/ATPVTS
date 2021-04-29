@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ScrollView
+            android:id="@+id/scrollView"
+            android:background="@drawable/background"
+            android:layout_width="match_parent"
+            android:layout_height="950dp">
+
+            <LinearLayout
+                android:id="@+id/linearLayoutPending"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <RelativeLayout
+                    android:layout_marginTop="32dp"
+                    android:layout_marginLeft="9dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:id="@+id/textPending"
+                        android:text="My Pending Bills"
+                        android:textSize="45sp"
+                        android:textColor="#FFFFFF"
+                        android:textStyle="bold"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/textPending"
+                        android:layout_marginTop="10dp"
+                        android:text="Id    Vehicle    Highway  Toll"
+                        android:textColor="#52BAFF"
+                        android:textSize="30sp" />
+                </RelativeLayout>
+
+            </LinearLayout>
+
+
+
+
+        </ScrollView>
+    </RelativeLayout>
+
+
+</FrameLayout>
